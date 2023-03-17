@@ -1,0 +1,15 @@
+* {
+  margin: 0 auto;
+  /* padding: 0 auto; */
+}
+/* 
+thead tbody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+table tr td {
+  width: 25%;
+  font-size: 20px;
+  color: blue;
+}

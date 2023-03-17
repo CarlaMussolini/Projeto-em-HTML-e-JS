@@ -1,0 +1,48 @@
+body {
+  background-image: url("azul.avif");
+  background-size: 100%;
+  cursor: pointer;
+}
+
+h1 {
+  color: #35b1e2;
+  text-shadow: 1px 1px 1px #111111;
+}
+
+p {
+  text-shadow: 1px 1px 1px #111111;
+  text-align: center;
+  font-size: 45px;
+  text-align: justify;
+  text-indent: 2em;
+}
+
+.botao_inicial {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.cadastrar {
+  background-color: #35b1e2;
+  background-image: linear-gradient(
+    to center,
+    rgba(10, 208, 235, 0.658),
+    #35b1e2
+  );
+  margin-top: 2%;
+  width: 20%;
+  height: 60px;
+  border-radius: 14px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.cadastrar:hover {
+  background-image: linear-gradient(to right, #35b1e2, rgba(19, 7, 7, 0.404));
+}
+
+img {
+  height: 42%;
+  width: 42%;
+  padding-left: 5%;
+}

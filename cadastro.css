@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  cursor: pointer;
+}
+
+body {
+  background-image: url("azul.avif");
+  background-size: 100%;
+}
+
+.titulo {
+  text-shadow: 1px 1px 1px #111111;
+  text-align: center;
+  font-size: 50px;
+  color: #35b1e2;
+  margin-top: 5%;
+  margin-bottom: 13%;
+}
+
+#container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.label {
+  display: block;
+  color: black;
+  font-size: 20pt;
+  font-family: cursive;
+  margin-top: 9%;
+  text-shadow: 1px 1px 1px #111111;
+}
+
+.input {
+  /* padding-top: 2%; */
+  width: 95%;
+  height: 4%;
+  /* margin-top: 2; */
+  border-radius: 6px;
+  box-shadow: 1px 1px 1px #111111;
+}
+
+.formato {
+  background-color: rgba(255, 255, 255, 0.747);
+  border-radius: 6px;
+  padding: 2%;
+  width: 40%;
+  height: 93%;
+}
+
+.select {
+  width: 30%;
+  height: 40px;
+  border-radius: 6px;
+  margin-top: 10%;
+  display: block;
+  font-weight: bold;
+  box-shadow: 1px 1px 1px #111111;
+}
+
+button {
+  box-shadow: 1px 1px 1px #111111;
+  margin: 6%;
+  width: 40%;
+  height: 40px;
+  margin-left: 3.6%;
+  border-radius: 6px;
+  font: 18pt normal Arial;
+  background-image: linear-gradient(to center, #35b1e2, rgba(19, 7, 7, 0.404));
+}
+
+button:hover {
+  background-image: linear-gradient(to right, rgba(19, 7, 7, 0.404), #35b1e2);
+}
+
+.botao {
+  margin-top: 13%;
+  color: #166888;
+  text-shadow: 1px 1px 1px #2f6074;
+  justify-content: center;
+  text-align: center;
+}
+
+.select_dia {
+  width: 25%;
+  height: 50px;
+  margin-top: 2%;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.select_mes {
+  text-align: center;
+  margin-left: 4%;
+  border-radius: 6px;
+  width: 25%;
+  height: 50px;
+}
+
+.select_ano {
+  text-align: center;
+  margin-left: 4%;
+  border-radius: 6px;
+  width: 25%;
+  height: 50px;
+}
