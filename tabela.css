@@ -8,8 +8,12 @@ thead tbody {
   justify-content: center;
   align-items: center;
 } */
-table tr td {
-  width: 25%;
+#tabela{
+  width: 50%;
   font-size: 20px;
   color: blue;
+  /* outline: ; */
+  border-collapse: collapse;
+  background: #FFFFF0;
+  border: solid green 1px;
 }
